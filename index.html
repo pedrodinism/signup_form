@@ -34,6 +34,14 @@
                         <label for="phoneNumber">Phone Number</label>
                         <input type="tel" id="phoneNumber">
                     </div>
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="password" pattern="^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%&*+\-._?]).+$" required minlength="8" id="password">
+                    </div>
+                    <div class="input">
+                        <label for="password2">Repeat Password</label>
+                        <input type="password" pattern="^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%&*+\-._?]).+$" required minlength="8" id="password2">
+                    </div>
                     <div class="actions">
                         <button>Create account</button>
                     </div>                    
